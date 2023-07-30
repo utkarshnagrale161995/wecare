@@ -1,0 +1,124 @@
+{
+  "patients": [
+    {
+      "id": 1,
+      "name": "Maria",
+      "password": "maria1234",
+      "gender": "F",
+      "dateOfBirth": "1996-01-01",
+      "email": "maria@gmail.com",
+      "mobileNumber": "123456789",
+      "pincode": "123456",
+      "city": "Banglore",
+      "state": "Karnataka",
+      "country": "India"
+    },
+    {
+      "id": 2,
+      "name": "Rutuja",
+      "password": "rutuja123",
+      "gender": "F",
+      "dateOfBirth": "1996-01-01",
+      "email": "rutuja@gmail.com",
+      "mobileNumber": "123456789",
+      "pincode": "123456",
+      "city": "Banglore",
+      "state": "Karnataka",
+      "country": "India"
+    },
+    {
+      "id": 3,
+      "name": "Shalini",
+      "password": "shalini12",
+      "gender": "F",
+      "dateOfBirth": "1996-01-01",
+      "email": "shalini@gmail.com",
+      "mobileNumber": "123456789",
+      "pincode": "123456",
+      "city": "Banglore",
+      "state": "Karnataka",
+      "country": "India"
+    },
+    {
+      "name": "Sanchita",
+      "password": "sanchi",
+      "mobileNo": "3030303030",
+      "emailId": "sanch123",
+      "dateOfBirth": "1996-01-02",
+      "gender": "male",
+      "pincode": "440023",
+      "city": "Nagpur",
+      "state": "Maharashtra",
+      "country": "India",
+      "id": 4
+    }
+  ],
+  "doctors": [
+    {
+      "id": 1,
+      "name": "Lokendra Singh",
+      "password": "lokendra12",
+      "gender": "male",
+      "dateOfBirth": "1957-01-01",
+      "mobileNumber": "123456789",
+      "speciality": "Neurosurgeon"
+    },
+    {
+      "id": 2,
+      "name": "Bhatnagar",
+      "password": "bhatnagar12345",
+      "gender": "male",
+      "dateOfBirth": "1967-08-01",
+      "mobileNumber": "123456789",
+      "speciality": "General Physian"
+    },
+    {
+      "id": 3,
+      "name": "Shankar Khobragade",
+      "password": "shankar12345",
+      "gender": "male",
+      "dateOfBirth": "1952-08-01",
+      "mobileNumber": "123456789",
+      "speciality": "Homeopathy"
+    },
+    {
+      "name": "Sanjay Gidwani",
+      "password": "sanjay@12",
+      "dateOfBirth": "2000-01-01",
+      "gender": "male",
+      "mobileNo": "5050505050",
+      "speciality": "Cardiologis",
+      "id": 4
+    }
+  ],
+  "bookings": [
+    {
+      "appointmentDate": "2023-09-23",
+      "slot": "2 PM to 3 PM",
+      "patientId": 1,
+      "doctorId": 1,
+      "id": 1
+    },
+    {
+      "appointmentDate": "2023-010-23",
+      "slot": "10 AM to 11 AM",
+      "patientId": 2,
+      "doctorId": 2,
+      "id": 2
+    },
+    {
+      "appointmentDate": "2023-11-23",
+      "slot": "10 AM to 11 AM",
+      "patientId": 3,
+      "doctorId": 2,
+      "id": 3
+    },
+    {
+      "appointmentDate": "2023-08-05",
+      "slot": "2 PM to 3 PM",
+      "patientId": 4,
+      "doctorId": 4,
+      "id": 5
+    }
+  ]
+}

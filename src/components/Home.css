@@ -1,0 +1,24 @@
+.call{
+    margin-left:770px;
+  }
+  
+  footer{
+    bottom:0;
+    background-color:black;
+    color:white;
+    position:fixed;
+    width:100%;
+    text-align: center;
+  }
+  
+  div >button{
+    margin-left:20px;
+    margin-right:20px;
+    margin-bottom:20px;
+    margin-top:10px;
+  }
+
+  .ima{
+    max-width: 400px;
+    height:250px
+  }
