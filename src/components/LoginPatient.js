@@ -29,7 +29,7 @@ export default function LoginPatient(){
     function handleClick(event){
         event.preventDefault();
        
-        axios.get("http://localhost:4000/patients")
+        axios.get("https://wecare2-data.onrender.com/patients")
         .then((response)=>{
             let value=response.data
             console.log(response.data)

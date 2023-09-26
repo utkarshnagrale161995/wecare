@@ -26,7 +26,7 @@ export default function UserHome(){
     )
 
     function getPatientDetails(){ 
-        axios.get("http://localhost:4000/doctors")
+        axios.get("https://wecare2-data.onrender.com/doctors")
         .then((response)=>{
             console.log(response.data)
             setDetails(response.data)

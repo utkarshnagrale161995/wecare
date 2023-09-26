@@ -28,7 +28,7 @@ export default function DoctorHome(){
 
     function getDoctorDetails(){ 
     
-        axios.get("http://localhost:4000/bookings")
+        axios.get("https://wecare2-data.onrender.com/bookings")
         .then((response)=>{
             setDetails(response.data)
             let schedule=details.filter((e)=>{

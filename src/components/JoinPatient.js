@@ -43,7 +43,7 @@ export default function JoinPatient(){
 
     function handleClick(event){
         event.preventDefault();
-        axios.post("http://localhost:4000/patients",state)
+        axios.post("https://wecare2-data.onrender.com/patients",state)
         .then((response)=>{
             console.log(response.data)
             setSuccessMessage(`Your Patient id is ${response.data.id}`)

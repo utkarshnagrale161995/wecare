@@ -38,7 +38,7 @@ export default function JoinDoctor(){
 
     function handleClick(event){
         event.preventDefault();
-        axios.post("http://localhost:4000/doctors",state)
+        axios.post("https://wecare2-data.onrender.com/doctors",state)
         .then((response)=>{
             console.log(response.data)
             setSuccessMessage(`Your Doctor id is ${response.data.id}`)

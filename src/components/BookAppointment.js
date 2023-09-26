@@ -32,7 +32,7 @@ export default function BookAppointment(){
                 )
 
         function getBookingDetails(){
-           axios.get('http://localhost:4000/bookings/')
+           axios.get('https://wecare2-data.onrender.com/bookings')
             .then((response)=>{
              console.log(response.data)
              setBookings(response.data)
@@ -49,7 +49,7 @@ export default function BookAppointment(){
 
         function handleClick(event){
           event.preventDefault()
-          axios.post('http://localhost:4000/bookings',state)
+          axios.post('https://wecare2-data.onrender.com/bookings',state)
            .then((response)=>{
               console.log(response.data)
               setBookings([...bookings,response.data])

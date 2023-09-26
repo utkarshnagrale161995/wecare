@@ -34,7 +34,7 @@ export default function RescheduleAppointment(){
     )
 
     function getBookingDetails(){ 
-        axios.get("http://localhost:4000/bookings/"+bookingId)
+        axios.get("https://wecare2-data.onrender.com/bookings/"+bookingId)
         .then((response)=>{
             console.log(response.data)
             setState(response.data)
@@ -52,7 +52,7 @@ export default function RescheduleAppointment(){
 
     function handleClick(event){
            event.preventDefault()
-           axios.put("http://localhost:4000/bookings/"+state.id,state)
+           axios.put("https://wecare2-data.onrender.com/bookings/"+state.id,state)
            .then((response)=>{
             console.log(response.data)
             setSuccessMessage("Appointment Updated successfully!")

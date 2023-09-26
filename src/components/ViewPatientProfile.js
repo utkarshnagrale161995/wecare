@@ -27,7 +27,7 @@ export default function ViewPatientProfile(){
     }
 
     function getPatientDetails(){ 
-        axios.get("http://localhost:4000/patients/"+loginId)
+        axios.get("https://wecare2-data.onrender.com/patients/"+loginId)
         .then((response)=>{
             console.log(response.data)
             setDetails(response.data)            

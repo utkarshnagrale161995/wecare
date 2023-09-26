@@ -27,7 +27,7 @@ export default function MyAppointments(){
     
     
     function getPatientDetails(){ 
-        axios.get("http://localhost:4000/bookings")
+        axios.get("https://wecare2-data.onrender.com/bookings")
         .then((response)=>{
             setDetails(response.data)
             console.log(details)
@@ -53,7 +53,7 @@ export default function MyAppointments(){
     }
     function handleDelete(event,id){
         event.preventDefault();
-        axios.delete("http://localhost:4000/bookings/"+id)
+        axios.delete("https://wecare2-data.onrender.com/bookings/"+id)
         .then((response)=>{
            
             /*setSuccessMessage("Deleted Successfully")
