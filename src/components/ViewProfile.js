@@ -5,7 +5,7 @@ import './DoctorHome.css'
 import { useSelector} from "react-redux";
 import {Link,useNavigate} from 'react-router-dom'
 import { sendDoctorLoginId } from "../actions/action";
-import {useDispatch} from "react-redux"
+import {useDispatch} from "react-redux";
 
 
 export default function ViewProfile(){
@@ -75,7 +75,7 @@ export default function ViewProfile(){
                                 <p>Name: Dr. {details.name}</p>
                                 <p>Doctor id: {details.id}</p>
                                 <p>Date of Birth: {details.dateOfBirth}</p>
-                                <p>Mobile No: {details.mobileNumber}</p>
+                                <p>Mobile No: {details.mobileNo}</p>
                                 <p>Speciality: {details.speciality}</p>
                             </div>
                     </div>

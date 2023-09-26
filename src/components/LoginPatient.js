@@ -116,7 +116,7 @@ export default function LoginPatient(){
                 <div className="card-body">
                       <div className="row">
                              <input type="text"
-                                    name="id" value={state.id}
+                                    name="id" value={state.id} autoComplete="off"
                                     onChange={(event)=>handleChange(event)} required placeholder="Patient id"
                                     className="form-control"/>
                                     {(errors.id) ? <div style={{color:"red"}}>{errors.id}</div>:null}
